@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-03T17:00:13 IST" name="LoginSuite" finished-at="2022-03-03T17:00:22 IST" duration-ms="8780">
+    <groups>
+    </groups>
+    <test started-at="2022-03-03T17:00:13 IST" name="Stage" finished-at="2022-03-03T17:00:19 IST" duration-ms="5668">
+      <class name="com.Test.VerifyLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Test.VerifyLoginTest@231f98ef]" started-at="2022-03-03T17:00:13 IST" name="setup" finished-at="2022-03-03T17:00:18 IST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyTest()[pri:0, instance:com.Test.VerifyLoginTest@231f98ef]" started-at="2022-03-03T17:00:18 IST" name="VerifyTest" finished-at="2022-03-03T17:00:19 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.VerifyLoginTest@231f98ef]" started-at="2022-03-03T17:00:19 IST" name="teardown" finished-at="2022-03-03T17:00:19 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Test.VerifyLoginTest -->
+    </test> <!-- Stage -->
+    <test started-at="2022-03-03T17:00:19 IST" name="Live" finished-at="2022-03-03T17:00:22 IST" duration-ms="2793">
+      <class name="com.Test.VerifyLoginTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.Test.VerifyLoginTest@4f32a3ad]" started-at="2022-03-03T17:00:12 IST" name="BS" finished-at="2022-03-03T17:00:13 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Test.VerifyLoginTest@4f32a3ad]" started-at="2022-03-03T17:00:19 IST" name="setup" finished-at="2022-03-03T17:00:21 IST" duration-ms="2239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyTest()[pri:0, instance:com.Test.VerifyLoginTest@4f32a3ad]" started-at="2022-03-03T17:00:21 IST" name="VerifyTest" finished-at="2022-03-03T17:00:22 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Test.VerifyLoginTest@4f32a3ad]" started-at="2022-03-03T17:00:22 IST" name="teardown" finished-at="2022-03-03T17:00:22 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Test.VerifyLoginTest -->
+    </test> <!-- Live -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
